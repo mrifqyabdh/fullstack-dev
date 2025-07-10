@@ -5,31 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chill</title>
     <link rel="stylesheet" href="style.css ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container" >  
-        <h1>Chill</h1>
-
+        <h1 style="font-size: 45px;">CHILL</h1>   
         <h2 class="masuk">Masuk</h2>
+        <p class="selamat">Selamat Datang Kembali!</p>
 
-        <p>Selamat Datang Kembali!</p>
+        <label f style="text-align: left; font-size: 22px;">Username :</label>
 
-        <label style="text-align: left;">Username :</label>
-        <input class="username"  type="text" placeholder="Username" >  
+        <input class="username"  type="text" placeholder="Masukkan username" >  
 
-        <label style="text-align: left;" class="password">Password :</label>
-        <input type="password" placeholder="Password" >
+        <label style="text-align: left; font-size: 22px;" class="password">Kata Sandi :</label>
+
+        <input class="pass" type="password" placeholder="Masukkan Katas Sandi" >
         
         <div class="links">
-        <a href="#">Daftar</a>
+        <a href="signup.html">Belum Punya Akun? <strong>Daftar</strong></a>
         <a href="#">Lupa Password?</a>
         </div>
 
-        <input type="submit" value="Masuk">
+        
+        <input class="masuk-button" type="submit" value="Masuk">
 
         <div >Atau</div>
  
-        <input type="submit" value="Masuk dengan Google">
+        <input class="google-button" type="submit" value="Masuk Dengan Google">
 
     </div>
 </body>
