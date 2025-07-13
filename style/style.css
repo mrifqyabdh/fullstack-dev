@@ -4,23 +4,7 @@
     box-sizing: border-box;
 }
 
-.body-login{
-    background-image: url(/assets/background.jpg);
-    background-size: cover;
-    background-position: center;
-    font-family: 'Lato', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    color: white;
-    
-}
-
-.body-signup{
-    background-image: url(/assets/background-signup.jpg);
+body{
     background-size: cover;
     background-position: center;
     font-family: 'Lato', sans-serif;
@@ -217,8 +201,6 @@
     line-height: 140%;
     width: 258px;
     height: 30px;
-    angle: 0 deg;
-    opacity: 1;
     border-radius: 13.86px;
     border-width: 0.58px;
     padding-top: 8.09px;
