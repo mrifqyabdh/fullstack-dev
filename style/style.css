@@ -4,8 +4,23 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: url(../assets/background.jpg);
+.body-login{
+    background-image: url(/assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    
+}
+
+.body-signup{
+    background-image: url(/assets/background-signup.jpg);
     background-size: cover;
     background-position: center;
     font-family: 'Lato', sans-serif;
@@ -84,6 +99,10 @@ body{
     margin-bottom: 20px; 
 } 
 
+.form-input .form-password{
+    margin-bottom: 20px;
+}
+
 .form-input .password{
     font-size: 10px;
     font-weight: 500;
@@ -107,10 +126,41 @@ body{
     background-color: transparent;
     color: white;
 } 
-.form-input img{
+
+.form-input .password-again{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 140%;
+    margin-bottom: 3.47px;
+}
+
+.form-input .input-password-again{
+    width: 260px;
+    height: 28px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 140%;
+    border-radius: 12px;
+    padding-top: 8.09px;
+    padding-right: 11.55px;
+    padding-bottom: 8.09px;
+    padding-left: 11.55px;
+    border: 0.58px solid;
+    border-color: hsla(250, 81%, 94%, 0.217);
+    background-color: transparent;
+    color: white;
+} 
+.eye-password{
     position: absolute;
     right: 12px;
     bottom: 6px;
+    cursor: pointer;
+}
+
+.eye-password-again{
+    position: absolute;
+    right: 12px;
+    bottom: 74px;
     cursor: pointer;
 }
 
