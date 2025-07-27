@@ -1,0 +1,231 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.nav {
+height: 56px;
+gap: 12px;
+background-color: #181A1C;
+color: rgb(255, 255, 255);
+display: flex;
+align-items: center;
+position: sticky;
+position: relative;
+}
+.nav img{
+  width: 18px;
+  height: 18px;
+}
+.nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  line-height: 140%;
+  font-weight: 500;
+}
+
+.nav a:hover{
+  color: #3254FF;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  width: 268px;
+  gap: 12px;
+  padding-left: 20px
+}
+
+.nav button{
+  background-color: transparent;
+  border: none;
+  width: 40px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: 16px;
+  z-index: 10;
+  padding: 5px;
+}
+
+.nav button .avatar{
+  border-radius: 50%;
+  width: 20px;
+}
+
+.nav button .vector{
+  width: 8px;
+  height: 5px;
+}
+
+.nav button:hover{
+  cursor: pointer;
+  background-color: hwb(210 36% 63%);
+}
+
+.dropdown{
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  background-color: lch(13.71% 0 296.81);
+  width: 113px;
+  width: 104px;
+  right: 20px;
+  top: 43px;
+  border-radius: 4px;
+  box-shadow: 0px 8px 16px 0px #1a191934;
+  border: 1px solid #181A1C;
+  z-index: 10;
+  
+}
+
+
+.dropdown a{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  gap: 5px;
+  font-size: 10px;
+  width: 113px;
+  height: 32px;
+  padding: 4px 4px;
+}
+
+.dropdown a img{
+  width: 10px;
+  height: 10px;
+}
+
+.profile{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.profile:hover .dropdown{
+    display: block;
+}
+
+.dropdown a:hover{
+  color: #3254FF;
+}
+
+.top-card{
+  background-image: url(/posters/duty-after-school.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 225px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  z-index: 0;
+}
+
+.top-card-overlay{
+  position: absolute;
+  width: 100%;
+  height: 225px;
+  background: linear-gradient(to bottom, transparent, #181A1C 100%);
+  z-index: 0;
+}
+
+
+.top-card-text h1{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  margin-bottom: 12px;
+}
+
+.top-card-text p{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  height: 37px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  margin-bottom: 12px;
+}
+
+.top-card-text {
+  height: 118px;
+  margin-bottom: 40px;
+  margin-left: 22px;
+  margin-right: 22px;
+  z-index: 1;
+}
+
+.button-mulai{
+  width: 55px;
+height: 25px;
+border-radius: 48px;
+background-color:#0F1E93 ;
+font-size: 12px;
+font-weight: 700;
+line-height: 140%;
+color: white;
+border-color: transparent;
+}
+
+.button-mulai:hover{
+  cursor: pointer;
+  background-color: #3254FF;
+}
+
+.button-selengkapnya{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 25px;
+  gap: 8px;
+  border-radius: 48px;
+  background-color: #22282A;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 140%;
+  color: white;
+  border-color: transparent;
+}
+
+.button-selengkapnya:hover{
+  cursor: pointer;
+  background-color: hwb(180 25% 75%);
+}
+
+.logo18+{
+  width: 30px;
+  height: 25px;
+}
+
+.volume-off-logo{
+  height: 25px;
+  margin-left: auto;
+}
+
+.volume-off-logo:hover{
+  cursor: pointer;
+}
+
+.buttons{
+  display: flex;
+  gap: 8px;
+}
+
+
+
+
+
+
+
