@@ -5,6 +5,10 @@
   font-family: 'Lato', sans-serif;
 }
 
+body{
+  background-color: #181A1C;
+}
+
 .nav {
 height: 56px;
 gap: 12px;
@@ -223,9 +227,176 @@ border-color: transparent;
   gap: 8px;
 }
 
+.lanjut-tonton-card{
+  height: 235px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+}
 
+.lanjut-tonton-card h1{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+}
 
+.lanjut-tonton-card-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;           
+  gap: 16px;
+  margin-top: 20px;
+}
 
+.lanjut-tonton-card-container img{
+  background-color: #24283b;
+  width: 310px;
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+.top-rating-card{
+  height: 190px;
+  margin-left: 20px;
+  color: white;
+}
+
+.top-rating-card h1{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.top-rating-card-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;           
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.top-rating-card-container img{
+  background-color: #24283b;
+  width: 95px;
+  height: 145px;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+.trending-card{
+  height: 190px;
+  color: white;
+  margin-top: 20px;
+    margin-left: 20px;
+}
+
+.trending-card h1{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.trending-card-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;           
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.trending-card-container img{
+  background-color: #24283b;
+  width: 95px;
+  height: 145px;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+.rilis-baru-card{
+  height: 190px;
+  color: white;
+  margin-top: 20px;
+    margin-left: 20px;
+}
+
+.rilis-baru-card h1{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.rilis-baru-card-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;           
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.rilis-baru-card-container img{
+  background-color: #24283b;
+  width: 95px;
+  height: 145px;
+  flex-shrink: 0;
+  border-radius: 4px;
+
+}
+
+footer{
+  border-top: 1px solid #E7E3FC3B;
+  margin-top: 40px;
+  margin-top: 20px;
+  height: 195px;
+  border-color: #fff;
+  color: white;
+}
+
+.footer-container{
+  margin-left: 20px;
+}
+
+.footer-container img{
+  margin-top: 20px;
+  width: 85px;
+  height: 25px
+}
+
+.footer-container p{
+  margin-top: 16px;
+  color: #C1C2C4;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+}
+
+.footer-links {
+  gap: 8px;
+  margin-top: 40px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.footer-links a{
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  margin-right: 20px;
+}
 
 
 
