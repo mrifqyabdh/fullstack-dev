@@ -249,20 +249,88 @@ border-color: transparent;
   gap: 16px;
   margin-top: 20px;
 }
-
+.lanjut-poster-card{
+  position: relative;
+  
+}
 .lanjut-tonton-card-container img{
-  background-color: #24283b;
   width: 310px;
   height: 150px;
   flex-shrink: 0;
   border-radius: 4px;
 }
 
+.lanjut-tonton-overlay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, transparent, lab(0% 0 0 / 0.701) 100%);
+  z-index: 1;
+}
+
+.lanjut-tonton-overlay p{
+  margin: auto 16px 16px 16px;
+  font-family: Lato;
+  font-weight: 700;
+
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+
 .top-rating-card{
   height: 190px;
   margin-left: 20px;
   color: white;
 }
+
+.episode-baru-poster{
+  position: relative;
+}
+
+.episode-baru-poster div{
+  margin-top: 7.5px;
+  margin-left: 7.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 45px;
+  height: 14px;
+  background-color: #0F1E93;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 6px;
+  line-height: 140%;
+}
+
+.trending-poster{
+  position: relative;
+}
+
+.trending-poster div{
+  right: 4px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 15px;
+  height: 22px;
+  background-color: #B71F1D;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-weight: 700;
+  font-size: 6px;
+  line-height: 140%;
+}
+
+
 
 .top-rating-card h1{
   font-weight: 700;
@@ -352,7 +420,7 @@ border-color: transparent;
 }
 
 footer{
-  border-top: 1px solid #E7E3FC3B;
+  border-top: 0.5px solid lab(91.21% 5.98 -11.62 / 0);
   margin-top: 40px;
   margin-top: 20px;
   height: 195px;

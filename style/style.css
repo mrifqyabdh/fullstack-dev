@@ -91,7 +91,7 @@ body{
     font-size: 10px;
     font-weight: 500;
     line-height: 140%;
-    margin-bottom: 3.47px;
+
 }
 
 .form-input .input-password{
@@ -109,13 +109,13 @@ body{
     border-color: hsla(250, 81%, 94%, 0.217);
     background-color: transparent;
     color: white;
+    margin-top: 3.47px;
 } 
 
 .form-input .password-again{
     font-size: 10px;
     font-weight: 500;
     line-height: 140%;
-    margin-bottom: 3.47px;
 }
 
 .form-input .input-password-again{
@@ -133,18 +133,20 @@ body{
     border-color: hsla(250, 81%, 94%, 0.217);
     background-color: transparent;
     color: white;
+    margin-top: 3.47px;
+    
 } 
 .eye-password{
     position: absolute;
     right: 12px;
-    bottom: 6px;
+    bottom: 7px;
     cursor: pointer;
 }
 
 .eye-password-again{
     position: absolute;
     right: 12px;
-    bottom: 74px;
+    bottom: 77px;
     cursor: pointer;
 }
 
