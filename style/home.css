@@ -5,8 +5,506 @@
   font-family: 'Lato', sans-serif;
 }
 
+@media only screen and (min-width: 960px){
+
 body{
   background-color: #181A1C;
+}
+
+.nav {
+height: 94px;
+gap: 12px;
+background-color: #181A1C;
+color: rgb(255, 255, 255);
+display: flex;
+align-items: center;
+position: sticky;
+position: relative;
+padding-left: 80px;
+padding-right: 80px;
+}
+
+.logo{
+  background-image: url(/assets/logo.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 45px;
+  width: 103px;
+}
+
+.nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 500;
+}
+
+.nav a:hover{
+  color: #3254FF;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  width: 520px;
+  gap: 80px;;
+}
+
+.nav button{
+  background-color: transparent;
+  border: none;
+  width: 76px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 20px;
+  z-index: 10;
+  padding: 8px;
+}
+
+.nav button .avatar{
+  border-radius: 50%;
+  width: 40px;
+}
+
+.nav button .vector{
+  width: 15px;
+  height: 10px;
+}
+
+.nav button:hover{
+  cursor: pointer;
+  background-color: hwb(210 36% 63%);
+}
+
+.dropdown{
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  background-color: lch(13.71% 0 296.81);
+  width: 200px;
+  right: 80px;
+  border-radius: 4px;
+  box-shadow: 0px 8px 16px 0px #1a191934;
+  border: 1px solid #181A1C;
+  z-index: 10;
+  padding: 15px;
+}
+
+
+.dropdown a{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  gap: 5px;
+  font-size: 18px;
+  padding: 15px 10px;
+}
+
+.dropdown a img{
+  width: 20px;
+}
+
+.profile{
+  display: inline-block;
+  margin-left: auto;
+}
+
+.profile:hover .dropdown{
+    display: block;
+}
+
+.dropdown a:hover{
+  color: #3254FF;
+}
+
+.top-card{
+  background-image: url(/posters/duty-after-school.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 587px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  z-index: 0;
+}
+
+.top-card-overlay{
+  position: absolute;
+  width: 100%;
+  height: 587px;
+  background: linear-gradient(to bottom, transparent, #000000 100%);
+  z-index: 0;
+}
+
+
+.top-card-text h1{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 110%;
+  margin-bottom: 20px;
+}
+
+.top-card-text p{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  height: 75px;
+  width: 668px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 40px;
+}
+
+.top-card-text {
+  margin-bottom: 80px;
+  margin-left: 80px;
+  margin-right: 80px;
+  z-index: 1;
+}
+
+.button-mulai{
+  width: 93px;
+  height: 45px;
+  border-radius: 48px;
+  background-color:#0F1E93 ;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 140%;
+  color: white;
+  border-color: transparent;
+}
+
+.button-mulai:hover{
+  cursor: pointer;
+  background-color: #3254FF;
+}
+
+.button-selengkapnya{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 185px;
+  height: 45px;
+  gap: 8px;
+  border-radius: 48px;
+  background-color: #22282A;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 140%;
+  color: white;
+  border-color: transparent;
+}
+
+.button-selengkapnya img{
+  width: 20px;
+  height: 20px;
+}
+
+.button-selengkapnya:hover{
+  cursor: pointer;
+  background-color: hwb(180 25% 75%);
+}
+
+img.logo18{
+  width: 52px;
+  height: 45px;
+}  
+
+
+.volume-off-logo{
+  height: 45px;
+  margin-left: auto;
+}
+
+.volume-off-logo:hover{
+  cursor: pointer;
+}
+
+.buttons{
+  display: flex;
+  gap: 10px;
+}
+
+/* lanjut tonton */
+
+.lanjut-tonton-card{
+  margin-top: 40px;
+  margin-left: 40px;
+  color: white;
+}
+
+.lanjut-tonton-card h1{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 110%;
+}
+
+.lanjut-tonton-card-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;           
+  gap: 24px;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+.lanjut-poster-card{
+  position: relative;
+}
+
+.lanjut-tonton-card-container img{
+  width: 310px;
+  height: 162px;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+.lanjut-tonton-overlay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 16.89%, rgba(16, 18, 19, 0.86) 59.37%, #181A1C 100%);
+  z-index: 1;
+}
+
+.lanjut-tonton-overlay p{
+  margin: auto 16px 16px 16px;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+/* movie poster */
+.movie-poster-card{
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-right: 40px;
+  color: white;
+}
+
+.movie-poster-card h1{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 110%;
+}
+
+.movie-poster-card-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;           
+  gap: 16px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.movie-poster-card-container img{
+  background-color: #24283b;
+  width: 234px;
+  height: 365px;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+#rilis-baru{
+  margin-bottom: 40px;
+}
+
+/* episode baru tag */
+.episode-baru-poster{
+  position: relative;
+}
+
+.episode-baru-poster div{
+  margin-top: 16px;
+  margin-left: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 104px;
+  height: 28px;
+  background-color: #0F1E93;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+/* trending tag */
+.trending-poster{
+  position: relative;
+}
+
+.trending-poster div{
+  right: 4px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 31px;
+  height: 48px;
+  background-color: #B71F1D;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+/* arrows */
+.arrowleft {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  z-index: 10;
+  left: 15px;
+  margin-top: 50px;
+}
+
+.arrowright {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  z-index: 10;
+  right: 15px;
+  margin-top: 50px;
+}
+
+#arrowleft{
+ position: absolute;
+  height: 50px;
+  width: 50px;
+  z-index: 10;
+  left: 15px;
+  margin-top: 200px;
+}
+#arrowright{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  z-index: 10;
+  right: 15px;
+  margin-top: 200px;
+}
+.arrowleft:hover{
+  cursor: pointer;
+}
+.arrowright:hover{
+  cursor: pointer;
+}
+
+
+/* footer */
+.footer-small{
+  display: none;
+}
+
+.footer-large{
+  border-top: 0.5px solid lab(91.21% 5.98 -11.62 / 0);
+  height: 284px;
+  border-color: #fff;
+  color: white;
+  padding: 40px 80px 40px 80px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-large .footer-container img{
+  margin-top: 20px;
+  width: 163px;
+  height: 44px
+}
+
+.footer-large .footer-container p{
+  margin-top: 26px;
+  color: #C1C2C4;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.footer-large .footer-links {
+  gap: 8px;
+  width: 814px;
+  height: 164px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-left: auto;
+}
+
+.footer-large .footer-links a{
+  text-decoration: none;
+  color: #C1C2C4;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.footer-large .genre-links{
+  width: 514px;
+  height: 164px;
+  gap: 16px;
+}
+
+.footer-large .genre-links div{
+  margin-top: 15px;
+  text-align: left;
+  /* untuk membuat tampilan grid 4 baris */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.bantuan-links{
+  width: 300px;
+  max-height: 164px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-large a:hover{
+  color: #3254FF;
+}
+
+}
+
+@media only screen and (max-width: 959px){
+
+body{
+  background-color: #181A1C;
+}
+
+.logo{
+  background-image: url(/assets/movie-open.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
 }
 
 .nav {
@@ -155,9 +653,11 @@ position: relative;
   letter-spacing: 0.2px;
   height: 37px;
   overflow: hidden;
+  /* membuat text menjadi 2 baris */
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  /* membuat text menjadi (...) */
   text-overflow: ellipsis;
   margin-bottom: 12px;
 }
@@ -228,7 +728,6 @@ border-color: transparent;
 }
 
 .lanjut-tonton-card{
-  height: 235px;
   margin-top: 20px;
   margin-left: 20px;
   color: white;
@@ -283,12 +782,37 @@ border-color: transparent;
 }
 
 
-.top-rating-card{
-  height: 190px;
+.movie-poster-card{
   margin-left: 20px;
+  margin-top: 20px;
   color: white;
 }
 
+.movie-poster-card h1{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.movie-poster-card-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;           
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.movie-poster-card-container img{
+  background-color: #24283b;
+  width: 95px;
+  height: 145px;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+/* episode baru tag */
 .episode-baru-poster{
   position: relative;
 }
@@ -309,6 +833,7 @@ border-color: transparent;
   line-height: 140%;
 }
 
+/* trending baru tag */
 .trending-poster{
   position: relative;
 }
@@ -330,96 +855,20 @@ border-color: transparent;
   line-height: 140%;
 }
 
-
-
-.top-rating-card h1{
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 120%;
+.arrowleft{
+  display: none;
 }
 
-.top-rating-card-container{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  overflow-x: auto;           
-  gap: 16px;
-  margin-top: 20px;
+.arrowright{
+  display: none;
 }
 
-.top-rating-card-container img{
-  background-color: #24283b;
-  width: 95px;
-  height: 145px;
-  flex-shrink: 0;
-  border-radius: 4px;
+/* footer */
+.footer-large{
+  display: none;
 }
 
-.trending-card{
-  height: 190px;
-  color: white;
-  margin-top: 20px;
-    margin-left: 20px;
-}
-
-.trending-card h1{
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 120%;
-}
-
-.trending-card-container{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  overflow-x: auto;           
-  gap: 16px;
-  margin-top: 20px;
-}
-
-.trending-card-container img{
-  background-color: #24283b;
-  width: 95px;
-  height: 145px;
-  flex-shrink: 0;
-  border-radius: 4px;
-}
-
-.rilis-baru-card{
-  height: 190px;
-  color: white;
-  margin-top: 20px;
-    margin-left: 20px;
-}
-
-.rilis-baru-card h1{
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 120%;
-}
-
-.rilis-baru-card-container{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  overflow-x: auto;           
-  gap: 16px;
-  margin-top: 20px;
-}
-
-.rilis-baru-card-container img{
-  background-color: #24283b;
-  width: 95px;
-  height: 145px;
-  flex-shrink: 0;
-  border-radius: 4px;
-
-}
-
-footer{
+.footer-small{
   border-top: 0.5px solid lab(91.21% 5.98 -11.62 / 0);
   margin-top: 40px;
   margin-top: 20px;
@@ -428,17 +877,17 @@ footer{
   color: white;
 }
 
-.footer-container{
+.footer-small .footer-container{
   margin-left: 20px;
 }
 
-.footer-container img{
+.footer-small .footer-container img{
   margin-top: 20px;
   width: 85px;
   height: 25px
 }
 
-.footer-container p{
+.footer-small .footer-container p{
   margin-top: 16px;
   color: #C1C2C4;
   font-weight: 400;
@@ -446,7 +895,7 @@ footer{
   line-height: 140%;
 }
 
-.footer-links {
+.footer-small .footer-links {
   gap: 8px;
   margin-top: 40px;
   text-decoration: none;
@@ -455,7 +904,7 @@ footer{
   margin-left: 20px;
 }
 
-.footer-links a{
+.footer-small .footer-links a{
   display: flex;
   text-decoration: none;
   justify-content: space-between;
@@ -466,5 +915,5 @@ footer{
   margin-right: 20px;
 }
 
-
+}
 

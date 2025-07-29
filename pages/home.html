@@ -14,9 +14,9 @@
     <header>
         <nav class="nav">
             <div class="nav-left">
-                <a href="/index.html">
-                    <img src="/assets/movie-open.png" alt="logo">
-                </a>
+                <div class="logo">
+                    <a href="/index.html"></a>
+                </div>
                 <a href="#">Series</a>
                 <a href="#">Film</a>
                 <a href="#">Daftar saya</a>
@@ -35,6 +35,7 @@
         </nav>
     </header>
     <main>
+
         <div class="top-card">
             <div class="top-card-overlay"></div>
             <div class="top-card-text">
@@ -43,17 +44,20 @@
                 <div class="buttons">
                     <button class="button-mulai">Mulai</button>
                     <button class="button-selengkapnya">
-                        <img style="width: 12px;"
-                        src="/assets/information-outline.png" alt="">
+                        <img src="/assets/information-outline.png" alt="">
                         Selengkapnya</button>
-                    <img class="logo18+" src="/assets/18+-logo.png" alt="18+logo">
+                    <img class="logo18" src="/assets/18+-logo.png" alt="18+logo">
                     <img class="volume-off-logo" src="/assets/volume-off.png" alt="volume-off-logo">
                 </div>
             </div>
+            
         </div>
+
         <div class="lanjut-tonton-card">
             <h1>Melanjutkan Tonton Film</h1>
             <div class="lanjut-tonton-card-container">
+            <img style="width: 50px; height: 50px;" class="arrowleft" src="/assets/arrowleft.png" alt="arrowleft">
+            <img style="width: 50px; height: 50px;" class="arrowright" src="/assets/arrowright.png" alt="arrowleft">
                 <div class="lanjut-poster-card">
                     <div class="lanjut-tonton-overlay">
                         <p>Shazam</p>
@@ -77,7 +81,7 @@
                 </div>
                 <div class="lanjut-poster-card">
                     <div class="lanjut-tonton-overlay">
-                        <p>Avatar The Way of Water</p>
+                        <p>Avatar</p>
                         <p><img style="width: 12px; height: 12px; background-color: transparent;" src="/assets/star.png" alt=""> 5/5</p>
                     </div>
                     <img src="/posters/poster4-lebar.png" alt="film-4">
@@ -92,9 +96,11 @@
             </div>
         </div>
 
-        <div class="top-rating-card">
+        <div class="movie-poster-card">
             <h1>Top Rating Film dan Series Hari ini</h1>
-            <div class="top-rating-card-container">
+            <img style="width: 50px; height: 50px;" class="arrowleft" id="arrowleft" src="/assets/arrowleft.png" alt="arrowleft">
+            <img style="width: 50px; height: 50px;" class="arrowright" id="arrowright" src="/assets/arrowright.png" alt="arrowleft">
+            <div class="movie-poster-card-container">
                 <div class="episode-baru-poster">
                     <div>Episode Baru</div>
                     <img src="/posters/poster1-tinggi.png" alt="film-1">
@@ -120,9 +126,11 @@
             </div>
         </div>
 
-        <div class="trending-card">
+        <div class="movie-poster-card">
             <h1>Film Trending</h1>
-            <div class="trending-card-container">
+            <img style="width: 50px; height: 50px;" class="arrowleft" id="arrowleft" src="/assets/arrowleft.png" alt="arrowleft">
+            <img style="width: 50px; height: 50px;" class="arrowright" id="arrowright" src="/assets/arrowright.png" alt="arrowleft">
+            <div class="movie-poster-card-container">
                 <div class="trending-poster">
                     <div>Top 10</div>
                     <img src="/posters/poster8-tinggi.png" alt="film-1">
@@ -158,9 +166,11 @@
             </div>
         </div>
 
-        <div class="rilis-baru-card">
+        <div class="movie-poster-card" id="rilis-baru">
             <h1>Rilis Baru</h1>
-             <div class="rilis-baru-card-container">
+            <img style="width: 50px; height: 50px;" class="arrowleft" id="arrowleft" src="/assets/arrowleft.png" alt="arrowleft">
+            <img style="width: 50px; height: 50px;" class="arrowright" id="arrowright" src="/assets/arrowright.png" alt="arrowleft">
+             <div class="movie-poster-card-container">
                 <div class="episode-baru-poster">
                     <div>Episode Baru</div>
                     <img src="/posters/poster20-tinggi.png" alt="film-1">
@@ -185,7 +195,48 @@
 
         </div>
     </main>
-    <footer>
+
+    <footer class="footer-large">
+
+        <div class="footer-container">
+            <img src="/assets/logo.png" alt="logo">
+            <p>@2025 Chill All Rights Reserved</p>
+        </div>
+
+        <div class="footer-links">
+                <div class="genre-links">
+                <h3>Genre</h3>
+                <div>
+                    <a href="#">Aksi</a>
+                    <a href="#">Anak-anak</a>
+                    <a href="#">Anime</a>
+                    <a href="#">Britania</a>
+                    <a href="#">Drama</a>
+                    <a href="#">Fantasi</a>
+                    <a href="#">Kejahatan</a>
+                    <a href="#">Kdrama</a>
+                    <a href="#">Komedi</a>
+                    <a href="#">Petualangan</a>
+                    <a href="#">Perang</a>
+                    <a href="#">Romantis</a>
+                    <a href="#">Sains & Alam</a>
+                    <a href="#">Thriller</a>
+                </div>
+            </div>
+
+            <div class="bantuan-links">
+                <h3>Bantuan</h3>
+                <a href="#">FAQ</a>
+                <a href="#">Kontak Kami</a>
+                <a href="#">Privasi</a>
+                <a href="#">Syarat & Ketentuan</a>
+            </div>
+            
+        </div>
+        
+    </footer>
+
+    <footer class="footer-small">
         <div class="footer-container">
             <img src="/assets/logo.png" alt="logo">
             <p>@2025 Chill All Rights Reserved</p>
