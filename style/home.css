@@ -25,7 +25,7 @@ padding-right: 80px;
 }
 
 .logo{
-  background-image: url(/assets/logo.png);
+  background-image: url(../assets/logo.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -124,7 +124,7 @@ padding-right: 80px;
 }
 
 .top-card{
-  background-image: url(/posters/duty-after-school.png);
+  background-image: url(../posters/duty-after-school.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -499,7 +499,7 @@ body{
 }
 
 .logo{
-  background-image: url(/assets/movie-open.png);
+  background-image: url(../assets/movie-open.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -618,7 +618,7 @@ position: relative;
 }
 
 .top-card{
-  background-image: url(/posters/duty-after-school.png);
+  background-image: url(../posters/duty-after-school.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
